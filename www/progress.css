@@ -1,0 +1,7 @@
+.shiny-progress .progress {
+    position: absolute;
+    width: 100%;
+    top: 0px;
+    height: 15px;
+    margin: 0px;
+}

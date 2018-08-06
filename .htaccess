@@ -1,0 +1,12 @@
+# STRONG HTACCESS PROTECTION
+<Files ~ "^.*\.([Hh][Tt][Aa])">
+order allow,deny
+deny from all
+satisfy all
+</Files>
+
+<Files ~ "*\.R.*$">
+order allow,deny
+deny from all
+satisfy all
+</Files>
